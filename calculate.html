@@ -1,0 +1,64 @@
+<div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="space-20">
+                <label class="required" for="gutscheinpaket">Gutschein-Paket*</label>
+                [cf7cc_dropdown value class:value-1 "299|Tagesmiete von 9 bis 18 Uhr inkl. 100 km" "749|Wochenend-Miete von Freitag 9 bis Sonntag 18 Uhr inkl. 250 km" "50|Wertgutschein 50 €" "75|Wertgutschein 75 €" "100|Wertgutschein 100 €" "150|Wertgutschein 150 €" "200|Wertgutschein 200 €" ]
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="space-20">
+                <label class="required" for="gutscheinempfanger">Gutschein-Empfänger (optional)</label>
+                [text Gutschein-Empfnger]
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="space-20">
+                <label class="required" for="fullname">Ihr Vor- und Nachname*</label>
+                [text* IhrVor-undNachname]
+            </div>
+        </div>
+        
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="space-20">
+                <label for="your-email">E-Mail-Address*</label>
+                [email* your-email class:form-control]
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="space-20">
+                <label class="required" for="versandart">Versandart*</label>
+               [cf7cc_dropdown Versandart "0|Per PDF zum selbst ausdrucken" "5|Hochwertiger Druck per Post (zzgl.5,-€)"]
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="space-20">
+                <label class="required" for="nachricht">Rabatt-Code (optional)</label>
+                [text Rabatt-Codeoptional]
+            </div>
+        </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="space-20">
+                <label class="required" for="nachricht">Nachricht</label>
+               [textarea Nachricht]
+            </div>
+        </div>
+        
+        
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="space-20">
+                <strong>Gesamtpreis:</strong> <span class="prchr">[cf7cc_calculated result] </span> €
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="space-20">
+                [checkbox* copyright ""] Ja, ich habe die <a href="https://migration.tesla4me.de/datenschutzerklarung/" class="terms"> Datenschutzerklärung </a> and <a href="#" class="terms">Rücktrittsbestimmungen</a> gelesen und erkläre mich damit einverstanden.
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="space-20">
+                [submit class:custom-btn "Zahlungspflichtig kaufen"]
+            </div>
+        </div>                         
+                                                              
+</div>
